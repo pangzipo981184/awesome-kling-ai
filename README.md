@@ -21,9 +21,9 @@ A curated list of awesome resources, tools, prompts, tutorials, and API referenc
 
 ---
 
-> 🚀 **Access All 20+ Kling Models via [Atlas Cloud API](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai)** — Uncensored, cheapest pricing (up to 85% off), fastest inference. Get **25% bonus on your first recharge** (up to $100).
+> 🚀 **Access All 20+ Kling Models via [Atlas Cloud API](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai)** — Uncensored, cheapest pricing (up to 85% off), fastest inference. Get **25% bonus on your first recharge** (up to $100).
 
-> 🔒 **Enterprise-Grade Security** — Atlas Cloud is **SOC I & II Certified** | **HIPAA Compliant** | US-based company with 99.9% uptime SLA.
+> 🔒 **Enterprise-Grade Security** — Atlas Cloud is **SOC I & II Certified** | **HIPAA Compliant** | 99.9% uptime SLA.
 
 > 🎨 **NSFW Whitelist Update** — In addition to Seedance and Kling, the **Vidu series** (Q3-Pro, Q3-Turbo) is now also whitelisted for uncensored content generation on Atlas Cloud.
 
@@ -260,22 +260,31 @@ Kling AI has undergone rapid development since its inception:
 
 How does Kling AI stack up against other leading video generation models?
 
-| Feature | Kling 3.0 | Seedance 1.0 | Sora | Veo 3 | Wan 2.1 |
-|:---|:---:|:---:|:---:|:---:|:---:|
-| **Max Resolution** | **4K** | 1080p | 1080p | 4K | 1080p |
-| **Max FPS** | **60** | 30 | 24 | 30 | 30 |
-| **Max Duration** | **15s** | 10s | 60s | 8s | 5s |
-| **Native Audio** | ✅ 5 languages | ✅ | ✅ | ✅ | ❌ |
-| **Multi-Shot** | ✅ 6 shots | ❌ | ❌ | ❌ | ❌ |
-| **Image-to-Video** | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **Reference-to-Video** | ✅ (O3) | ❌ | ❌ | ❌ | ❌ |
-| **Video Editing** | ✅ (O3) | ❌ | ✅ | ❌ | ❌ |
-| **Avatar** | ✅ | ❌ | ❌ | ❌ | ❌ |
-| **Motion Control** | ✅ | ❌ | ❌ | ❌ | ❌ |
-| **API Access** | ✅ | ✅ | ✅ | ✅ | ✅ |
-| **Uncensored API** | ✅ via [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai) | Limited | Limited | Limited | Limited |
+| Feature | Kling 3.0 | Seedance 1.0 | Seedance 2.0 | Sora | Veo 3 | Wan 2.1 | Wan 2.7 (Coming) | Hailuo 3 (Coming) |
+|:---|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+| **Max Resolution** | **4K** | 1080p | **4K** | 1080p | 4K | 1080p | Up to 4K (expected) | 1080p+ (expected) |
+| **Max FPS** | **60** | 30 | 30 | 24 | 30 | 30 | 30+ (expected) | 30 (expected) |
+| **Max Duration** | **15s** | 10s | 10s | 60s | 8s | 5s | 10s+ (expected) | 10s (expected) |
+| **Native Audio** | ✅ 5 languages | ✅ | ✅ | ✅ | ✅ | ❌ | TBD | ✅ (expected) |
+| **Multi-Shot** | ✅ 6 shots | ❌ | ❌ | ❌ | ❌ | ❌ | TBD | TBD |
+| **Image-to-Video** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ (expected) | ✅ (expected) |
+| **Reference-to-Video** | ✅ (O3) | ❌ | ❌ | ❌ | ❌ | ❌ | TBD | TBD |
+| **Video Editing** | ✅ (O3) | ❌ | ❌ | ✅ | ❌ | ❌ | TBD | TBD |
+| **Avatar** | ✅ | ❌ | ❌ | ❌ | ❌ | ❌ | ❌ | TBD |
+| **Motion Control** | ✅ | ❌ | ✅ | ❌ | ❌ | ❌ | ✅ (expected) | TBD |
+| **Character Consistency** | ✅ | Limited | ✅ | ❌ | ❌ | Limited | ✅ (expected) | ✅ (expected) |
+| **API Access** | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | TBD | TBD |
+| **Uncensored API** | ✅ via [Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai) | Limited | Limited | Limited | Limited | Limited | TBD | TBD |
 
 > 💡 **Kling 3.0 is the only model offering native 4K at 60FPS with multi-shot narrative support**, making it the most versatile video generation model available as of early 2026.
+
+### Upcoming Competitors to Watch
+
+- **Wan 2.7** (Alibaba, expected March 2026) — The next iteration of Alibaba's open-source Wan video model. Expected improvements include extended video duration, up to 4K resolution support, enhanced motion control, and better character consistency across frames. Wan 2.1 already showed strong text-to-video fundamentals; version 2.7 aims to close the gap with Kling on quality and features.
+
+- **MiniMax Hailuo 3** (MiniMax, expected H1 2026) — Next-generation video model from MiniMax, the team behind Hailuo AI. Hailuo 3 is expected to feature multimodal fusion capabilities, blending text, image, and audio inputs for more coherent video generation. MiniMax has been investing heavily in long-context understanding, which could translate to better narrative coherence in generated videos.
+
+- **Seedance 2.0** (ByteDance) — ByteDance's cinema-grade video generation model. Seedance 2.0 brings significant upgrades over v1.0, including 4K resolution support, improved motion control, better character consistency, and enhanced cinematic quality. It positions itself as a professional-grade tool for filmmakers and content creators looking for high-fidelity video generation.
 
 ---
 
@@ -283,7 +292,7 @@ How does Kling AI stack up against other leading video generation models?
 
 ### Using Atlas Cloud API
 
-The fastest way to start generating Kling AI videos is through the [Atlas Cloud API](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai), which provides access to all 20+ Kling models with the industry's lowest pricing.
+The fastest way to start generating Kling AI videos is through the [Atlas Cloud API](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai), which provides access to all 20+ Kling models with the industry's lowest pricing.
 
 #### cURL
 
@@ -1128,7 +1137,7 @@ While Kling doesn't use traditional negative prompts like Stable Diffusion, you 
 
 ### Third-Party Tools
 
-- 🛠️ [Atlas Cloud API](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai) — Unified API for all Kling models, cheapest pricing
+- 🛠️ [Atlas Cloud API](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai) — Unified API for all Kling models, cheapest pricing
 - 🛠️ [Kling Prompt Generator](https://github.com/search?q=kling+prompt+generator) — AI-powered prompt generators for Kling
 - 🖼️ [Kling Batch Processor](https://github.com/search?q=kling+batch) — Batch video generation tools
 
@@ -1140,7 +1149,7 @@ While Kling doesn't use traditional negative prompts like Stable Diffusion, you 
 
 - 📺 [Kling AI Beginner's Guide](https://www.youtube.com/results?search_query=kling+ai+tutorial+beginner) — YouTube tutorials for beginners
 - 📺 [Kling 3.0 New Features Walkthrough](https://www.youtube.com/results?search_query=kling+3.0+tutorial) — Latest version tutorials
-- 📝 [How to Use Kling API](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai) — Step-by-step API integration guide
+- 📝 [How to Use Kling API](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai) — Step-by-step API integration guide
 
 ### Advanced Techniques
 
@@ -1151,8 +1160,8 @@ While Kling doesn't use traditional negative prompts like Stable Diffusion, you 
 ### Blog Posts & Articles
 
 - 📝 [The Evolution of Kling AI: From 1.0 to 3.0](https://klingai.com/global/blog) — Official blog
-- 📝 [Kling AI Prompt Engineering Guide](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai) — Detailed prompting strategies
-- 📝 [Building a Video Pipeline with Kling API](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai) — Production workflow guide
+- 📝 [Kling AI Prompt Engineering Guide](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai) — Detailed prompting strategies
+- 📝 [Building a Video Pipeline with Kling API](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai) — Production workflow guide
 
 ---
 
@@ -1162,12 +1171,12 @@ While Kling doesn't use traditional negative prompts like Stable Diffusion, you 
 
 | Provider | Kling 3.0 Pro (T2V) | Kling 3.0 Std (T2V) | Kling O3 Pro | All Models | Notes |
 |:---|:---:|:---:|:---:|:---:|:---|
-| **[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai)** | **$0.204** | **Lower** | **✅ Available** | **✅ 20+ models** | ✅ Uncensored, fastest, 85% off, 25% first recharge bonus |
+| **[Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai)** | **$0.204** | **Lower** | **✅ Available** | **✅ 20+ models** | ✅ Uncensored, fastest, 85% off, 25% first recharge bonus |
 | Official API | ~$0.30+ | ~$0.20+ | Limited | ~10 models | Region restricted, censored |
 | Provider B | $0.25-0.40 | Varies | Limited | ~5 models | Limited model selection |
 | Provider C | $0.30-0.45 | Varies | ❌ | ~3 models | Few models, slow inference |
 
-> 💡 **[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai)** offers the most comprehensive Kling model coverage at the industry's lowest prices. New users get a **25% bonus on their first recharge** (up to $100 bonus).
+> 💡 **[Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai)** offers the most comprehensive Kling model coverage at the industry's lowest prices. New users get a **25% bonus on their first recharge** (up to $100 bonus).
 
 ### Atlas Cloud vs fal.ai Pricing
 
@@ -1177,6 +1186,8 @@ While Kling doesn't use traditional negative prompts like Stable Diffusion, you 
 | **Seedance** | ~$0.26/video | from $0.044/s | **15% cheaper** |
 | **Wan 2.5** | $0.05/sec (5s = $0.25) | from $0.05/s | **80% cheaper** |
 | **Wan 2.6** | Similar pricing | from $0.07/s | Competitive |
+| **Seedance 2.0** | — | from $0.05/s | Atlas available |
+| **Hailuo** | ~$0.20/video | from $0.04/s | **80% cheaper** |
 | **Veo 3** | $0.40/sec (8s = $3.20) | TBD | Coming soon |
 | **Vidu Q3-Pro** | — | from $0.06/s | Atlas exclusive |
 | **Vidu Q3-Turbo** | — | from $0.034/s | Atlas exclusive |
@@ -1199,9 +1210,9 @@ While Kling doesn't use traditional negative prompts like Stable Diffusion, you 
 <details>
 <summary><strong>How do I use the Kling API?</strong></summary>
 
-The easiest way to access all Kling models is through the [Atlas Cloud API](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai):
+The easiest way to access all Kling models is through the [Atlas Cloud API](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai):
 
-1. **Sign up** at [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai)
+1. **Sign up** at [Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai)
 2. **Get your API key** from the dashboard
 3. **Make API calls** to `https://api.atlascloud.ai/api/v1/model/generateVideo`
 4. **Choose your model** — from Kling 3.0 Pro to O3, all versions available
@@ -1211,20 +1222,22 @@ See the [Quick Start](#quick-start) section for code examples in cURL, Python, a
 </details>
 
 <details>
-<summary><strong>Kling vs Sora vs Seedance — which is better?</strong></summary>
+<summary><strong>Kling vs Sora vs Seedance vs Wan vs Hailuo — which is better?</strong></summary>
 
 Each model has strengths:
 
-| Aspect | Kling 3.0 | Sora | Seedance |
-|:---|:---|:---|:---|
-| **Resolution** | **4K** (best) | 1080p | 1080p |
-| **FPS** | **60** (best) | 24 | 30 |
-| **Multi-Shot** | **✅ 6 shots** (unique) | ❌ | ❌ |
-| **Duration** | 15s | **60s** (longest) | 10s |
-| **Audio** | ✅ 5 languages | ✅ | ✅ |
-| **API Access** | ✅ (via [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai)) | ✅ | ✅ |
+| Aspect | Kling 3.0 | Sora | Seedance 2.0 | Wan 2.1 | Hailuo (current) |
+|:---|:---|:---|:---|:---|:---|
+| **Resolution** | **4K** (best) | 1080p | **4K** | 1080p | 1080p |
+| **FPS** | **60** (best) | 24 | 30 | 30 | 30 |
+| **Multi-Shot** | **✅ 6 shots** (unique) | ❌ | ❌ | ❌ | ❌ |
+| **Duration** | 15s | **60s** (longest) | 10s | 5s | 6s |
+| **Audio** | ✅ 5 languages | ✅ | ✅ | ❌ | ✅ |
+| **Motion Control** | ✅ | ❌ | ✅ | ❌ | ❌ |
+| **Character Consistency** | ✅ | ❌ | ✅ | Limited | Limited |
+| **API Access** | ✅ (via [Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai)) | ✅ | ✅ | ✅ | ✅ |
 
-**Kling 3.0** is best for high-resolution, high-FPS commercial content. **Sora** excels at longer narratives. **Seedance** offers a good balance for general use. For access to all Kling models at the lowest price, use [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai).
+**Kling 3.0** is best for high-resolution, high-FPS commercial content with multi-shot narratives. **Sora** excels at longer duration videos. **Seedance 2.0** offers cinema-grade quality with strong motion control. **Wan 2.1** is open-source and cost-effective. **Hailuo** provides solid quality with good audio integration. Note: **Wan 2.7** and **Hailuo 3** are expected in 2026 with significant upgrades. For access to all Kling models at the lowest price, use [Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai).
 
 </details>
 
@@ -1247,10 +1260,10 @@ See the full [Prompt Guide](#prompt-guide--examples) for 30+ detailed examples w
 
 Kling AI offers limited free credits on their official platform. For API access, pricing varies by provider:
 
-- **[Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai):** Starting from $0.204/s for Kling 3.0 Pro (85% off), with a **25% bonus on first recharge** (up to $100)
+- **[Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai):** Starting from $0.204/s for Kling 3.0 Pro (85% off), with a **25% bonus on first recharge** (up to $100)
 - **Official API:** ~$0.30+/request, region restricted
 
-For the best value, [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai) offers the lowest pricing with access to all 20+ Kling models.
+For the best value, [Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai) offers the lowest pricing with access to all 20+ Kling models.
 
 </details>
 
@@ -1265,7 +1278,7 @@ For the best value, [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_sourc
 - **Element Reference:** Use specific visual elements as references
 - **Multi-input:** Accept text, video, image, and subject inputs simultaneously
 
-O3 is available via [Atlas Cloud API](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai) in both Pro and Std variants.
+O3 is available via [Atlas Cloud API](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai) in both Pro and Std variants.
 
 </details>
 
@@ -1296,7 +1309,7 @@ Generation time varies by model and settings:
 | Kling O3 | ~45-90s | ~90-180s | — |
 | Kling 2.5 Turbo | ~15-30s | ~30-60s | — |
 
-Times are approximate and may vary based on server load. [Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai) typically offers faster inference speeds.
+Times are approximate and may vary based on server load. [Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai) typically offers faster inference speeds.
 
 </details>
 
@@ -1319,7 +1332,7 @@ Times are approximate and may vary based on server load. [Atlas Cloud](https://w
 
 <br/>
 
-### 👉 [Try Kling on Atlas Cloud](https://www.atlascloud.ai?ref=JPM683&utm_source=github&utm_campaign=awesome-kling-ai)
+### 👉 [Try Kling on Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-kling-ai)
 
 *New users get 25% bonus on first recharge (up to $100)*
 
