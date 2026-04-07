@@ -2,10 +2,10 @@
 
 # Awesome Kling AI [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-[![Stars](https://img.shields.io/github/stars/atlas-cloud/awesome-kling-ai?style=social)](https://github.com/ristponex/awesome-kling-ai)
+[![Stars](https://img.shields.io/github/stars/atlas-cloud/awesome-kling-ai?style=social)](https://github.com/pangzipo981184/awesome-kling-ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Last Commit](https://img.shields.io/github/last-commit/atlas-cloud/awesome-kling-ai)](https://github.com/ristponex/awesome-kling-ai)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/ristponex/awesome-kling-ai/pulls)
+[![Last Commit](https://img.shields.io/github/last-commit/atlas-cloud/awesome-kling-ai)](https://github.com/pangzipo981184/awesome-kling-ai)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/pangzipo981184/awesome-kling-ai/pulls)
 
 **🎬 The Ultimate Resource Hub for Kling AI Video Generation**
 
